@@ -1,0 +1,87 @@
+body{
+    background-color: black;
+    color: white;
+}
+::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.container
+{
+    width: 400px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    user-select: none;
+}
+.res{
+    overflow-x: scroll;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nums{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.tab{
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+tr{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding:5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+td{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+td:active{
+    background-color: aqua;
+}
+td:last-child{
+    background-color: orange;
+}
+.zero{
+    width: 155px;
+    border-radius: 40px;
+}
+.smoke{
+    background-color: rgb(46, 44, 44);
+}
